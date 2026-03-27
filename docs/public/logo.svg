@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FWB Bridge logo">
+  <defs>
+    <linearGradient id="fwb-gradient" x1="8" x2="56" y1="8" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd166" />
+      <stop offset="0.55" stop-color="#d96c25" />
+      <stop offset="1" stop-color="#4db6ac" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#0f1724" />
+  <path fill="url(#fwb-gradient)" d="M18 18h12c8.5 0 13 3.8 13 10.2 0 3.9-1.9 6.7-5.4 8.3 4.5 1.3 6.9 4.4 6.9 8.9C44.5 52 39.5 56 30.4 56H18V18Zm8.6 15.2h2.9c3.5 0 5.2-1.4 5.2-4.1 0-2.8-1.8-4.2-5.2-4.2h-2.9v8.3Zm0 15.9h4c3.8 0 5.8-1.5 5.8-4.5 0-3-2-4.5-5.8-4.5h-4v9ZM49 18h-4.8v38H49V18Z"/>
+</svg>

@@ -1,40 +1,16 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
----
+# FWB Bridge Docs
 
-# Home
+Production-ready VitePress documentation for the `fs_bridge` FiveM framework bridge.
 
-Public documentation for Beta resources.
+## Local Development
 
-This docs space is structured in two layers:
+```powershell
+npm install
+npm run docs:dev
+```
 
-* `Helpful` for general server knowledge and common setup issues
-* `Bridge` for the public `fs_bridge` documentation
+## Production Build
 
-## Current Focus
-
-The current public docs focus on FiveM servers using:
-
-* `ESX`
-* `QBCore`
-* `Qbox`
-
-## Start Here
-
-* [Helpful](helpful/)
-* [Bridge](scripts/fs_bridge/)
+```powershell
+npm run docs:build
+```
